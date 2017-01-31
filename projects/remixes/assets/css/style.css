@@ -1,0 +1,190 @@
+h1 {
+font-size: 50px;
+font-family: 'Abril Fatface', cursive;
+letter-spacing: 3px;
+text-align:center;
+margin: 200px;
+}
+
+h2 {
+font-size: 30px;
+font-family: 'Abril Fatface', cursive;
+letter-spacing: 3px;
+text-align:center;
+margin: 100px;
+}
+
+h3 {
+font-size: 30px;
+font-family: 'Abril Fatface', cursive;
+letter-spacing: 3px;
+text-align:center;
+margin: -180px;
+}
+
+h4 {
+font-size: 20px;
+font-family: 'Abril Fatface', cursive;
+letter-spacing: 3px;
+text-align:center;
+margin: -100px;
+}
+
+.simplelink {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.1s ease;
+}
+
+.original {
+display:block;
+width:100px;
+height:100px;
+border-radius:50px;
+font-size:20px;
+color:#fff;
+line-height:100px;
+text-align:center;
+text-decoration:none;background:#000;
+position: absolute;
+left: 369.5px;
+top: 440px;}
+
+.original:hover{color:#ccc;text-decoration:none;background:#333}
+
+.v1 {
+display:block;
+width:100px;
+height:100px;
+border-radius:50px;
+font-size:20px;
+color:#fff;
+line-height:100px;
+text-align:center;
+text-decoration:none;background:#000;
+position: absolute;
+left: 519.5px;
+top: 440px;}
+
+.v1:hover{color:#ccc;text-decoration:none;background:#333}
+
+.v2 {
+display:block;
+width:100px;
+height:100px;
+border-radius:50px;
+font-size:20px;
+color:#fff;
+line-height:100px;
+text-align:center;
+text-decoration:none;background:#000;
+position: absolute;
+left: 669.5px;
+top: 440px;}
+
+.v2:hover{color:#ccc;text-decoration:none;background:#333}
+
+.v3 {
+display:block;
+width:100px;
+height:100px;
+border-radius:50px;
+font-size:20px;
+color:#fff;
+line-height:100px;
+text-align:center;
+text-decoration:none;background:#000;
+position: absolute;
+left: 819.5px;
+top: 440px;}
+
+.v3:hover{color:#ccc;text-decoration:none;background:#333}
+
+.v4 {
+display:block;
+width:100px;
+height:100px;
+border-radius:50px;
+font-size:20px;
+color:#fff;
+line-height:100px;
+text-align:center;
+text-decoration:none;background:#000;
+position: absolute;
+left: 969.5px;
+top: 440px;}
+
+.v4:hover{color:#ccc;text-decoration:none;background:#333}
+
+.return {
+display:block;
+width:100px;
+height:100px;
+border-radius:50px;
+font-size:20px;
+color:#fff;
+line-height:100px;
+text-align:center;
+text-decoration:none;
+background:#000;
+position: absolute;
+left: 592px;
+top: 600px;}
+
+.return:hover{color:#ccc;text-decoration:none;background:#333}
+
+.next {
+display:block;
+width:100px;
+height:100px;
+border-radius:50px;
+font-size:20px;
+color:#fff;
+line-height:100px;
+text-align:center;
+text-decoration:none;
+background:#000;
+position: absolute;
+left: 742px;
+top: 600px;}
+
+.next:hover{color:#ccc;text-decoration:none;background:#333}
+
+.menu {
+  display:block;
+  width:25px;
+  height:25px;
+  border-radius:12.5px;
+  font-size:5px;
+  color:#fff;
+  line-height:25px;
+  text-align:center;
+  text-decoration:none;
+  background:#000;
+  position: absolute;
+  left: 20px;
+  top: 10px;}
+
+.menu:hover{color:#ccc;text-decoration:none;background:#333}
+
+.solo{
+display:block;
+width:100px;
+height:100px;
+border-radius:50px;
+font-size:20px;
+color:#fff;
+line-height:100px;
+text-align:center;
+text-decoration:none;
+background:#000;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 200%);}
+
+.solo:hover{color:#ccc;text-decoration:none;background:#333}
+
+
+
+
