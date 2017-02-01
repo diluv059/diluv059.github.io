@@ -4,3 +4,48 @@ body {
 background-color: #CBE2FF;
 
 }
+
+.logo {
+width: 30px;
+height: 95px;
+
+
+
+}
+
+
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-family: 'VT323', monospace;
+    padding: 15px;
+
+}
+ul {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0px;
+  padding: 10px;
+}
+ul li {display: inline-block;}
+
+ul li:hover {background: none;}
+
+ul li:hover ul {display: inline-block;}
+
+ul li ul {
+
+  display: none;
+  width: 150px;
+  display: none;
+}
+ul li ul li {
+  background: #8b9598;
+  opacity: 0.8;
+  display: block;
+}
+ul li ul li a {display:block;}
+ul li ul li:hover {background: #bdc9cd;}
