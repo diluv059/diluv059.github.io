@@ -9,8 +9,6 @@ background-color: #CBE2FF;
 width: 30px;
 height: 95px;
 
-
-
 }
 
 
@@ -18,6 +16,7 @@ div a {
     text-decoration: none;
     color: white;
     font-size: 10px;
+    letter-spacing: .6px;
     font-family: 'VT323', monospace;
     padding: 15px;
 
