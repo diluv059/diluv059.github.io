@@ -1,5 +1,5 @@
 a {
-font-family: 'Racing Sans One', cursive;
+font-family: 'Impact', Charcoal, sans-serif;
 font-size: 60px;
 text-decoration: none;
 color: white;
@@ -17,9 +17,9 @@ a:hover {
 font-size: 0px;
 }
 
-
 a:hover:before {
-  font-family: 'Racing Sans One', cursive;
+  font-family: 'Impact', Charcoal, sans-serif;
+  font-size: 60px;
   font-size: 50px;
   color: white;
   text-align:center;
@@ -32,22 +32,6 @@ a:hover:before {
   margin-left: -350px;
   margin-top: -35px;
   content: attr(data-hover);
-}
-
-h1 {
-  font-family: 'Racing Sans One', cursive;
-  font-size: 60px;
-  color: white;
-  text-align:center;
-  letter-spacing: 4px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 700px;
-  height: 70px;
-  margin-left: -350px;
-  margin-top: -35px;
-
 }
 
 button {
@@ -89,7 +73,6 @@ button:hover {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
   }
-
 }
 
 .github {
@@ -99,6 +82,7 @@ button:hover {
   top: 27%;
   left: 25%;
  }
+
 
 .fullscreen-bg {
   position: fixed;
