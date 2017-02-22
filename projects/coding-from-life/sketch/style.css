@@ -1,0 +1,230 @@
+body {background-color: white;}
+
+button {
+  display:inline-block;
+  width:25px;
+  height:25px;
+  border-radius:12.5px;
+  font-size:5px;
+  color:#fff;
+  line-height:25px;
+  text-align:center;
+  text-decoration:none;
+  background:#e82c20;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+}
+
+button:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.github {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 27%;
+  left: 25%;
+ }
+
+
+.backdrop {
+    width: 1000px;
+    height: 600px;
+    background: #284086;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50px;
+}
+
+.table {
+    position: fixed;
+    background: #FFD700;
+    top: 68%;
+    left: 50%;
+    width: 500px;
+    height: 50px;
+    margin-left: -250px;
+    margin-top: -25px;
+}
+
+
+.vase-lower {
+    background: #e82c20;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 75px;
+    height: 120px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.vase-upper {
+    background: #e82c20;
+    position: absolute;
+    top: 43%;
+    left: 51.37%;
+    width: 35px;
+    height: 90px;
+
+    border-radius: 10px;
+}
+
+.fire {
+    position: absolute;
+    top: 57.2%;
+    left: 47.4%;
+    width: 5px;
+    height: 7px;
+    background: orange;
+    opacity: .5;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.fire-back {
+    position: absolute;
+    top: 57%;
+    left: 47.3%;
+    width: 8px;
+    height: 10px;
+    background: red;
+    opacity: .5;
+    display: block;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.candle-glass {
+    position: absolute;
+    top: 58%;
+    left: 46%;
+    width: 45px;
+    height: 45px;
+    background: #f86517;
+    border-radius: 3px;
+}
+.candle-wax {
+    position: absolute;
+    top: 58%;
+    left: 46%;
+    width: 45px;
+    height: 33px;
+    background: #ff971e;
+   }
+
+.flower-stem {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 300px;
+    height: 90px;
+    border: solid 10px #000;
+    border-color: #accf19 transparent transparent transparent;
+    border-radius: 70%/100px 100px 0 0;
+    transform: rotate(264deg);
+}
+
+.petal1 {
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    top: 30.5%;
+    left: 53.5%;
+    border: 20px solid #fa5ca7;
+    border-radius: 0 120%;
+    transform: rotate(95deg);
+}
+
+.petal2 {
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    top: 29.5%;
+    left: 51.2%;
+    border: 20px solid #fa5ca7;
+    border-radius: 0 120%;
+    transform: rotate(190deg);
+}
+
+
+.petal3 {
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    top: 29%;
+    left: 52.6%;
+    border: 20px solid #fa5ca7;
+    border-radius: 0 120%;
+    transform: rotate(55deg);
+}
+
+.petal4 {
+    width: 0px;
+    height: 10px;
+    position: absolute;
+    top: 29.1%;
+    left: 52%;
+    border: 20px solid #9f1e5e;
+    border-radius: 0 120%;
+    transform: rotate(390deg);
+}
+
+.petal5 {
+    width: 0px;
+    height: 10px;
+    position: absolute;
+    top: 29.7%;
+    left: 53.5%;
+    border: 20px solid #9f1e5e;
+    border-radius: 0 120%;
+    transform: rotate(70deg);
+}
+
+.petal6 {
+    width: 0px;
+    height: 10px;
+    position: absolute;
+    top: 32.2%;
+    left: 54%;
+    border: 20px solid #9f1e5e;
+    border-radius: 0 120%;
+    transform: rotate(115deg);
+}
+
+.petal7 {
+    width: 0px;
+    height: 10px;
+    position: absolute;
+    top: 30.5%;
+    left: 51.2%;
+    border: 20px solid #9f1e5e;
+    border-radius: 0 120%;
+    transform: rotate(345deg);
+}
