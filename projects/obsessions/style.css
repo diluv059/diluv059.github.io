@@ -1,0 +1,60 @@
+body { background: #008fbf;}
+
+.logo {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 500px;
+  height: 300px;
+  margin-left: -250px;
+  margin-top: -150px;
+
+}
+button {
+  display:inline-block;
+  width:25px;
+  height:25px;
+  border-radius:12.5px;
+  font-size:5px;
+  color:#fff;
+  line-height:25px;
+  text-align:center;
+  text-decoration:none;
+  background:#00db00;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+}
+
+button:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.github {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 27%;
+  left: 25%;
+ }
