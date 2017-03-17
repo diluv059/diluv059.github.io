@@ -1,0 +1,47 @@
+body {
+  background-image: url('../../assets/orange.gif');
+  background-size:cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.return{
+  display:block;
+  margin: 0 auto;
+  position: relative;
+  width: 90px;
+  height: 70px;
+}
+
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+    max-height: 25vw;
+    margin: 1vw;
+    cursor: pointer;
+    transition:box-shadow .3s, transform .3s ease-out;
+}
+
+img:hover {
+  vertical-align:middle; text-align:center;
+  -webkit-filter: saturate(4);
+    animation: jiggle 0.5s infinite linear;}
+      @keyframes jiggle {
+        0% {transform: rotate(0deg) scale(1.7,1.7);}
+        50% {transform: rotate(2deg) scale(1.7,1.7);}
+        100% {transform: rotate(-2deg) scale(1.7,1.7)}
+}
+
+@media (max-width:700px) {
+  .gallery {
+    img {
+      max-height: 15rem;
+    }
+  }
+}
