@@ -1,0 +1,38 @@
+body{
+  margin: 20px;}
+
+div{
+border: solid black 2px;
+padding:17px;
+margin-bottom: 20px;
+border-radius: 5px;}
+
+
+h1{
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 0px;}
+
+h2{
+  font-family: Courier, monospace;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0px;
+  margin-top: 20px;}
+
+
+@media screen and (max-width: 743px) {
+
+h1{
+  font-family: Arial;
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0px;}
+
+h2{
+  font-family: Courier, monospace;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0px;
+  margin-top: 20px;}

@@ -1,0 +1,16 @@
+body{
+margin: 0px;}
+
+div{
+  width: 33.33%;
+  float: left;
+  height: 33.33vh;}
+
+.green{
+  background-color: #CBDF1E;}
+
+.white{
+  background-color: white;}
+
+.blue{
+  background-color: #607D8D;}

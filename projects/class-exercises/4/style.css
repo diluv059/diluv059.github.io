@@ -1,0 +1,30 @@
+.center{
+  width: 33.33vw;
+  height: 33.33vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1FB9D2;}
+
+.center div{
+  width: 20%;
+  height: 20%;
+  background-color: #3B47A1;
+  position: absolute;}
+
+.top-left{
+left: 0px;
+top: 0px;}
+
+.top-right{
+  right:0%;
+  top: 0%;}
+
+.bottom-left{
+  left:0%;
+  bottom: 0%;}
+
+.bottom-right{
+  right:0%;
+  bottom: 0%;}

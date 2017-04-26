@@ -1,0 +1,73 @@
+body {
+  height:100%;
+  width:100%;}
+
+button{
+  width:285.8;
+  height:53;}
+
+h1{
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  border: solid black 2px;
+  float: right;
+  position: relative;
+  left: -43%;
+  text-align: left;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;}
+
+.float-center {
+  float: right;
+  padding-top: 100px;
+  position: relative;
+  left: -34%;
+  text-align: left;}
+
+.float-center > .child {
+  position: relative;
+  left: 50%;}
+
+#container {
+  margin: 0px auto 0 auto;;
+  padding: 0px;
+  border-radius: 10px;}
+
+ul li {
+  float: left;
+  list-style-type: none;
+  margin:6px;}
+
+ul a {
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #6A37B7;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 0px 4px;
+  background-color: white;
+  border: solid #6A37B7 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 62px;
+  padding-bottom: 62px;}
+
+@media screen and (max-width: 743px) {
+
+.float-center {
+  float: right;
+  padding-top: 0px;
+  position: relative;
+  left: -50%;
+  text-align: left;}
+
+h1{
+  left: -20%;}
