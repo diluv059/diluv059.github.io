@@ -1,0 +1,127 @@
+a {
+font-family: 'Impact', Charcoal, sans-serif;
+font-size: 60px;
+text-decoration: none;
+color: white;
+text-align:center;
+letter-spacing: 4px;
+position: absolute;
+top: 50%;
+left: 50%;
+width: 700px;
+height: 70px;
+margin-left: -350px;
+margin-top: -35px;}
+
+a:hover {
+font-size: 0px;
+}
+
+a:hover:before {
+  font-family: 'Impact', Charcoal, sans-serif;
+  font-size: 60px;
+  font-size: 50px;
+  color: white;
+  text-align:center;
+  letter-spacing: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: 70px;
+  margin-left: -350px;
+  margin-top: -35px;
+  content: attr(data-hover);
+}
+
+button {
+  display:inline-block;
+  width:25px;
+  height:25px;
+  border-radius:12.5px;
+  font-size:5px;
+  color:white;
+  line-height:25px;
+  text-align:center;
+  text-decoration:none;
+  background:white;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+}
+
+button:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.github {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 27%;
+  left: 25%;
+ }
+
+
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('media/dopamine_still.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}

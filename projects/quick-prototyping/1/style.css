@@ -1,0 +1,56 @@
+h1 {
+  font-size: 270px;
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #00ff00;
+}
+
+@media (max-width: 1260px) {
+
+h1{
+  font-size: 150px;
+  font-family: 'Baloo', cursive;}
+
+body{
+  background-color: #FFFF00;}
+
+}
+
+
+@media (max-width: 880px) {
+
+h1{
+  font-size: 150px;
+  font-family: 'Righteous', cursive;}
+
+body{
+  background-color: #00ffff;}
+
+}
+
+@media (max-width: 600px) {
+
+h1{
+  font-size: 60px;
+  font-family: 'Shrikhand', cursive;}
+
+body{
+  background-color: #ff00ff;}
+
+}
+
+@media (max-width: 480px) {
+
+h1{
+  font-size: 90px;
+  font-family: 'Futura', sans-serif;}
+
+body{
+  background-color: #ff0000;}
+
+}

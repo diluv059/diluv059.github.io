@@ -1,0 +1,45 @@
+.one {
+  margin-left: 20px;
+  margin-top: -40px;
+}
+
+.two {
+  margin-top: -30px;
+  margin-left: 15px;
+  padding: 0px;
+}
+
+.three {
+  margin-left: 20px;
+  padding: 0px;
+  margin-top: -10px;
+}
+
+h1{
+  font-size: 20px;
+  font-family: 'Futura', sans-serif;
+  text-align: left;
+}
+
+h2{
+  font-size: 43px;
+  font-family: 'Futura', sans-serif;
+  text-align: left;
+  color: #38D8F9
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #EBFF5C;
+}
+
+
+@media (max-width: 700px) {
+
+  h2{
+    color: #EBFF5C;}
+
+  body{
+    background-color: #38D8F9;}
+}
