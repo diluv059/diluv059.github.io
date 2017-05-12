@@ -1,0 +1,162 @@
+.time {
+  padding: 0px;}
+
+h2 {
+  position: fixed;
+  bottom: -10px;
+  right: 40px;
+  font-size: 45px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: left;
+  color:  #e085a3;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #e085a3;}
+
+body{
+  display:flex;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;}
+
+.container {
+  display:none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;}
+
+.texture {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: saturate(110%);}
+
+.zoom {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .4;}
+
+.blooming {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .6;
+  mix-blend-mode: hue;}
+
+.clouds {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: overlay;}
+
+.texture2 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .4;}
+
+.texture3 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: hue;}
+
+.texture4 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: overlay;}
+
+.texture5 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: overlay;
+    opacity: .4;}
+
+.texture6 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: overlay;
+    opacity: .4;}
+
+.texture7 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: overlay;
+    opacity: .4;}
+
+.flowers {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: soft-light;
+  opacity: .8;}
+
+.borboletas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: blur(4px);}
+
+.borboletas-mobile {
+  display:none;}
+
+
+@media (max-width: 700px) {
+
+.borboletas {
+  display:none;}
+
+.borboletas-mobile {
+  display: inline;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  filter: blur(4px);}
+
+h2 {
+  position: fixed;
+  text-align: left;
+  right: 0px;
+  left: 10px;
+  font-size: 30px;
+  -webkit-transform: rotate(90deg);}
